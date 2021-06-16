@@ -1,0 +1,75 @@
+.customer-registration {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 4rem;
+}
+
+.customer-registration h1 {
+	max-width: 800px;
+	text-align: center;
+}
+
+.customer-registration form {
+	margin-top: 3rem;
+	width: 600px;
+}
+
+.customer-registration input[type='text'],
+.customer-registration input[type='password'],
+.customer-registration input[type='submit'] {
+	width: 100%;
+	padding: 0.5rem 1.5rem;
+	margin-bottom: 1.5rem;
+	border-radius: 0.3rem;
+}
+
+.customer-registration button:hover {
+	background-image: linear-gradient(to right, #00aff0, #06d79c);
+}
+
+.customer-registration input[type='text'],
+.customer-registration input[type='password'] {
+	border: 1px solid #ddd;
+	outline: none;
+}
+
+.customer-registration input[type='text']:hover,
+.customer-registration input[type='password']:hover,
+.customer-registration input[type='text']:focus,
+.customer-registration input[type='password']:focus {
+	border-color: #06d79c;
+}
+
+.customer-registration input[type='checkbox'] {
+	margin-right: 0.5rem;
+	margin-bottom: 1.5rem;
+}
+
+.customer-registration input[type='submit'] {
+	outline: none;
+	background-image: linear-gradient(to right, #00aff0, #06d79c);
+	border: none;
+}
+
+.customer-registration input[type='submit']:hover {
+	background-image: linear-gradient(to right, #00aff0 0%, #00aff0 100%);
+}
+
+.forgot-password-link {
+	text-decoration: none;
+	color: #23527c;
+}
+
+.forgot-password-link:hover {
+	color: #06d79c;
+}
+
+.error {
+	color: red;
+	margin: 0 0.5rem 1rem 0.5rem;
+}
+.error::after {
+	content: ' *';
+}

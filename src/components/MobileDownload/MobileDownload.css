@@ -1,0 +1,18 @@
+.mobile-download {
+	background-color: rgb(236, 236, 236);
+	padding: 4rem 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.mobile-download h1 {
+	font-weight: 700;
+}
+
+.mobile-download__link {
+	display: flex;
+	gap: 2rem;
+	margin-top: 1rem;
+	flex-wrap: wrap;
+}

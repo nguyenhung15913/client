@@ -1,0 +1,54 @@
+.new-navigation ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+	background-color: #25190e;
+	padding: 0 10rem;
+}
+
+.new-navigation ul li {
+	padding: 1.5rem;
+}
+
+.new-navigation ul li a {
+	text-decoration: none;
+	color: white;
+	font-weight: 600;
+}
+
+.new-navigation ul li a:hover {
+	color: #7a1a17;
+}
+
+.new-navigation-img {
+	position: absolute;
+	left: 15%;
+}
+
+.new-navigation-img img {
+	height: 100px;
+	border: solid #ff4040;
+	border-width: 2px 5px;
+}
+
+.user-area {
+	display: flex;
+	justify-content: flex-end;
+	padding: 0 10rem;
+	gap: 2rem;
+}
+
+/* Semantic ion */
+.ui.dropdown > .dropdown.icon {
+	color: #7a1a17;
+	font-size: 30px;
+	margin: 0 0 0 0.5rem !important;
+}
+
+.ui.dropdown {
+	display: flex;
+	align-items: center;
+}

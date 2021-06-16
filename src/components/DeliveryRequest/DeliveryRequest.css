@@ -1,0 +1,21 @@
+.delivery-img {
+	background-color: #f7f7f7;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 3rem;
+}
+
+.delivery-img img {
+	width: 70%;
+}
+
+@media all and (max-width: 770px) {
+	.delivery-img img {
+		width: 100%;
+	}
+
+	.delivery-img {
+		padding: 0;
+	}
+}

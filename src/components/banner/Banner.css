@@ -1,0 +1,63 @@
+.Banner {
+	background-image: url('https://www.delivereh.ca/asset/theme/images/banner/home.jpg');
+	height: 758px;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0 1rem;
+}
+
+.title {
+	font-size: 3rem;
+	font-weight: 700;
+	max-width: 1200px;
+	text-align: center;
+	line-height: 1.6;
+}
+
+.subtitle {
+	font-size: 1.2rem;
+	font-weight: 500;
+	color: rgb(39, 30, 30);
+}
+
+.Banner__button {
+	outline: none;
+	border: none;
+	border-radius: 10000px;
+	padding: 0.7rem 2rem;
+	background-color: black;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+	font-size: 1.5rem;
+}
+
+.Banner__button:hover {
+	background-color: #06d79c;
+}
+
+.Banner__button a {
+	text-decoration: none;
+	color: white;
+}
+
+.Banner__button:hover a {
+	color: rgb(31, 29, 29);
+}
+
+.Banner__sign-in a {
+	color: black;
+	font-size: 1.75rem;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.Banner__sign-in a:hover {
+	color: #06d79c;
+}
+
+.font-size-md {
+	font-size: 1.5rem;
+}

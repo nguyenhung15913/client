@@ -1,0 +1,23 @@
+/* pro sidebar element */
+
+.pro-sidebar {
+	list-style-type: none;
+	height: 100vh;
+}
+
+.avatar img {
+	width: 150px;
+	border-radius: 50%;
+	height: 150px;
+}
+
+.avatar {
+	padding: 0.5rem;
+	display: flex;
+	justify-content: center;
+}
+
+.customer-name {
+	text-align: center;
+	font-size: 2rem;
+}

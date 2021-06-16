@@ -1,0 +1,104 @@
+.customer-registration {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 4rem;
+}
+
+.split {
+	display: flex;
+	gap: 1.5rem;
+}
+
+.customer-registration h1 {
+	max-width: 800px;
+	text-align: center;
+}
+
+.customer-registration.register-page form {
+	margin-top: 3rem;
+	width: 600px;
+}
+.customer-registration input[type='email'],
+.customer-registration input[type='text'],
+.customer-registration input[type='password'],
+.customer-registration input[type='submit'],
+.switch-link-btn {
+	width: 100%;
+	padding: 0.5rem 1.5rem;
+	margin-bottom: 0.3rem;
+	border-radius: 0.3rem;
+}
+
+.switch-link-btn {
+	outline: none;
+	border: none;
+	background-color: #1da1f2;
+	text-align: center;
+}
+
+.customer-registration a {
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-size: 0.9rem;
+	width: 100%;
+}
+
+.switch-link-btn:hover {
+	cursor: pointer;
+	background-image: linear-gradient(to right, #00aff0, #06d79c);
+}
+
+.switch-link-btn:hover a {
+	color: white !important;
+}
+.customer-registration input[type='email'],
+.customer-registration input[type='text'],
+.customer-registration input[type='password'] {
+	border: 1px solid #ddd;
+	outline: none;
+}
+.customer-registration input[type='email']:hover,
+.customer-registration input[type='text']:hover,
+.customer-registration input[type='password']:hover,
+.customer-registration input[type='text']:focus,
+.customer-registration input[type='password']:focus {
+	border-color: #06d79c;
+}
+
+.customer-registration input[type='checkbox'] {
+	margin-right: 0.5rem;
+	margin-bottom: 1.5rem;
+}
+
+.customer-registration input[type='submit'] {
+	outline: none;
+	background-image: linear-gradient(to right, #00aff0, #06d79c);
+	border: none;
+}
+
+.customer-registration input[type='submit']:hover {
+	background-image: linear-gradient(to right, #00aff0 0%, #00aff0 100%);
+}
+
+.forgot-password-link {
+	text-decoration: none;
+	color: #23527c;
+}
+
+.forgot-password-link:hover {
+	color: #06d79c;
+}
+
+@media all and (max-width: 770px) {
+	.split {
+		flex-wrap: wrap;
+		gap: 0;
+	}
+
+	.customer-registration.register-page form {
+		max-width: 400px;
+	}
+}

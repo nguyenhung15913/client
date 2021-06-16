@@ -1,0 +1,42 @@
+.footer {
+	background-color: #333538;
+	color: white;
+	display: flex;
+	padding: 3rem 1rem;
+	justify-content: center;
+	gap: 4rem;
+	flex-wrap: wrap;
+}
+
+.footer__social-media {
+	max-width: 600px;
+}
+
+.footer__social-media img {
+	height: 70px;
+	margin-bottom: 0.5rem;
+}
+
+.footer__menu ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.footer__menu ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+.footer__menu ul li a:hover {
+	color: #06d79c;
+}
+
+.footer__social-media__icons {
+	display: flex;
+	gap: 0.5rem;
+}
+
+.footer__social-media__icons a {
+	text-decoration: none;
+	color: white;
+}

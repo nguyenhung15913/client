@@ -1,0 +1,11 @@
+.dashboard {
+	display: flex;
+}
+
+.page-body {
+	width: 100%;
+}
+
+.dashboard-img {
+	width: 99%;
+}

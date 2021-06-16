@@ -1,0 +1,59 @@
+.nav-bar {
+	padding-left: 3rem;
+	padding-right: 3rem;
+	position: sticky !important;
+	top: 0;
+	background-color: white;
+	box-shadow: 0px 4px 8px 2px #c9c7c7;
+	z-index: 1000000;
+}
+
+.brand-logo {
+	height: 60px;
+	width: 200px;
+}
+
+.mr-auto {
+	font-weight: bold;
+}
+
+.navbar-collapse {
+	justify-content: flex-end;
+}
+
+.nav-link {
+	text-decoration: none;
+	color: #000000 !important;
+	margin-right: 2rem;
+}
+
+.nav-link:hover {
+	color: #06d79c !important;
+}
+
+.btn-style {
+	border: 1px solid black;
+	border-radius: 100000px;
+	text-align: center;
+	margin-right: 2rem;
+	height: 40px;
+}
+
+.nav-link.btn-style a {
+	margin-right: 0;
+	font-weight: 700;
+}
+
+@media all and (max-width: 770px) {
+	.btn-style {
+		margin-bottom: 0.5rem;
+	}
+}
+
+.profile-avatar {
+	height: 40px;
+}
+
+.drop-menu {
+	margin-left: -80px !important;
+}

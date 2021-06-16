@@ -1,0 +1,40 @@
+.card-deck {
+	display: flex;
+	gap: 1.5rem;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.card-item {
+	width: 350px;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-image: linear-gradient(to right, #00aff0, #06d79c);
+	border-width: 0 0 5px 0;
+	border-style: solid;
+	border-image-slice: 1;
+
+	box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 10%);
+	margin-bottom: 2rem;
+}
+
+.card-item h3 {
+	font-size: 1.5rem;
+	margin-top: 1rem;
+}
+
+.card-item:hover {
+	cursor: pointer;
+}
+
+.card-item:hover h3 {
+	color: #06d79c;
+}
+
+.card-item img {
+	width: 35px;
+	height: 32px;
+}

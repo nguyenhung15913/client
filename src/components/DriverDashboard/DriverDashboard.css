@@ -1,0 +1,14 @@
+.driver-dashboard__body {
+	display: grid;
+	place-items: center;
+	padding: 5rem;
+}
+
+.map-container {
+	width: 1000px;
+	height: 600px;
+}
+
+.driver-modal {
+	z-index: 9999999999999999999999999;
+}

@@ -1,0 +1,148 @@
+.driver-page {
+	position: relative;
+	background-image: url('https://www.delivereh.ca/asset/theme/images/banner/become-driver.jpeg');
+	width: 100%;
+	height: 1255px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position-x: center;
+	background-position-y: center;
+}
+
+.overlay {
+	position: absolute;
+	width: 100%;
+	height: 1255px;
+	background-color: rgba(38, 38, 38, 0.92);
+	z-index: 2;
+}
+
+.slogan-section {
+	position: relative;
+	z-index: 100;
+	color: white;
+	max-width: 500px;
+}
+
+.slogan-section h1 {
+	text-align: start;
+	margin-bottom: 2rem;
+	font-size: 4rem;
+}
+
+.driver-page__body {
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	gap: 25%;
+	flex-wrap: wrap;
+}
+
+.driver-page__body form {
+	position: sticky;
+	top: 15%;
+	z-index: 100;
+}
+
+.driver-page__body.customer-registration {
+	display: flex;
+	flex-direction: row;
+}
+
+.driver__signin-form {
+	background-color: white;
+	padding: 2rem;
+	border-radius: 0.3rem;
+}
+
+/* Customer Form */
+.customer-registration form h4 {
+	text-align: center;
+	margin-bottom: 1.5rem;
+}
+
+.customer-registration form {
+	margin-top: 3rem;
+	width: 400px;
+}
+
+.customer-registration input[type='text'],
+.customer-registration input[type='password'],
+.customer-registration input[type='submit'],
+.customer-registration button {
+	width: 100%;
+	padding: 0.5rem 1.5rem;
+	margin-bottom: 1.5rem;
+	border-radius: 0.3rem;
+}
+
+.customer-registration button {
+	outline: none;
+	border: none;
+	background-color: #1da1f2;
+}
+
+.customer-registration button a {
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-size: 0.9rem;
+}
+
+.customer-registration button:hover {
+	background-image: linear-gradient(to right, #00aff0, #06d79c);
+}
+
+.customer-registration input[type='text'],
+.customer-registration input[type='password'] {
+	border: 1px solid #ddd;
+	outline: none;
+}
+
+.customer-registration input[type='text']:hover,
+.customer-registration input[type='password']:hover,
+.customer-registration input[type='text']:focus,
+.customer-registration input[type='password']:focus {
+	border-color: #06d79c;
+}
+
+.customer-registration input[type='checkbox'] {
+	margin-right: 0.5rem;
+	margin-bottom: 1.5rem;
+}
+
+.customer-registration input[type='submit'] {
+	outline: none;
+	background-image: linear-gradient(to right, #00aff0, #06d79c);
+	border: none;
+}
+
+.customer-registration input[type='submit']:hover {
+	background-image: linear-gradient(to right, #00aff0 0%, #00aff0 100%);
+}
+
+.forgot-password-link {
+	text-align: center;
+}
+
+.forgot-password-link a {
+	text-decoration: none;
+	color: #23527c;
+}
+
+.forgot-password-link a:hover {
+	color: #06d79c;
+}
+
+@media all and (max-width: 770px) {
+	.driver-page {
+		height: auto !important;
+	}
+
+	.overlay {
+		height: 100vh !important;
+	}
+
+	.driver-page__body {
+	}
+}

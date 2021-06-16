@@ -1,0 +1,48 @@
+.admin-header {
+	background-color: #1d1d1d;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.admin-header img {
+	height: 30px;
+	border-radius: 50%;
+}
+
+.admin-header ul {
+	display: flex;
+	color: #adadad;
+	font-weight: 500;
+	list-style-type: none;
+	margin: 0;
+	padding: 1.25rem;
+	gap: 2rem;
+}
+
+.admin-header ul li {
+	border: 1px solid white;
+	padding: 0.35rem 0.75rem;
+	border-radius: 10000px;
+}
+
+.admin-header ul li:hover {
+	cursor: pointer;
+	background-color: rgb(150, 147, 147);
+}
+
+/* bootstrap */
+.dropdown-toggle::after {
+	display: none !important;
+}
+
+.btn-primary {
+	background-color: transparent !important;
+	border: none !important;
+	outline: none !important;
+}
+
+.btn-primary:focus {
+	border: none !important;
+	outline: none !important;
+}

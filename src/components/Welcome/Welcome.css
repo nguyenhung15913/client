@@ -1,0 +1,20 @@
+.welcome {
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 3rem;
+	padding: 0 1rem;
+}
+
+.welcome p {
+	margin: 0 auto;
+	max-width: 800px;
+}
+
+.Welcome__img {
+	margin-top: 3rem;
+	width: 100%;
+}
+
+.Welcome__img img {
+	max-width: 100%;
+}
